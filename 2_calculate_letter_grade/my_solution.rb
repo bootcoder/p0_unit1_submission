@@ -15,6 +15,25 @@
 
 # 2. Initial Solution
 
+def get_grade(input)
+	
+	avg = input.reduce(:+).to_f / input.length
+
+	case avg
+	when  0..59
+		"F"
+	when 60..69
+		"D"
+	when 70..79
+		"C"
+	when 80..89
+		"B"
+	when 90...100 
+		"A"
+	else
+		"avg:#{avg}, Somethings wrong Jim!" 
+	end
+end
 
 
 
