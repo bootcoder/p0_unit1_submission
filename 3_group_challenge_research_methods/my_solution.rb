@@ -19,12 +19,30 @@ end
 #
 
 # Person 2
+
+# This works but hash doesn't have a map function so....
+# Trying to implement with .each but it's not working out currently.
+
+
+
 def my_array_modification_method(source, thing_to_modify)
-  # Your code here!
+  mod_array = Array.new
+  source.each { |x|
+    if x.is_a? Integer
+      mod_array << x += thing_to_modify
+    else
+      mod_array << x
+    end
+  }
+  mod_array
 end
+
 
 def my_hash_modification_method(source, thing_to_modify)
   # Your code here!
+  source.each { |k,v|
+			source[k] = v+thing_to_modify
+  	}
 end
 
 # Identify and describe the ruby method you implemented. 
