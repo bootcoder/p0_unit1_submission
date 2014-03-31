@@ -56,13 +56,13 @@ end
 
 # What parts of your strategy worked? What problems did you face?
 # I knew from the instructions that I would need both hashes and arrays for this
-# challenge to work. Well I didnt know but I infered & happened to infer correctly.
-# The stategy was to go thought the array and add its elements to a hash as keys. 
+# challenge to work. Well I didn't know but I inferred & happened to infer correctly.
+# The strategy was to go thought the array and add its elements to a hash as keys. 
 # We set the hash to contain 0 by default because you can't add to nil
 
 # What questions did you have while coding? What resources did you find to help you answer them?
 # How to push the right stuff to the right place and then sort those values.
-# I found several difernt approaches online for mode within ruby.
+# I found several different approaches online for mode within ruby.
 
 # What concepts are you having trouble with, or did you just figure something out? If so, what?
 # I'm still not super comfortable with hashes. I mean the principle of it seems so clear.
